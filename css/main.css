@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-div {
+    display: flex;
+}
+
+.text {
+    width: 600px;
+    margin-left: 50px;
+
+}
+
+.text>h1 {
+    width: 450px;
+}
+
+.text>p {
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.text>button {
+    width: 140px;
+    height: 35px;
+}
+
+.photo {}
+
+.gradient {
+    width: 650px;
+    background-image: radial-gradient(red, green, blue);
+    position: relative;
+}
+
+.photo1>img {
+    position: absolute;
+    top: 85px;
+    right: 130px;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+}
+
+.photo3>img {
+
+    position: absolute;
+    bottom: 130px;
+    left: 190px;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+}
+
+.photo5>img {
+    position: absolute;
+    top: 75px;
+    right: 280px;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+
+}
+
+.photo > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+
+}
+
+.photo2 >img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+
+}
+
+.photo4 > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    left: 70px;
+
+}
+button{
+  background-color: #1CD2A1;
+  color: white;
+  border: none;
+} 
